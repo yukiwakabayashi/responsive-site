@@ -1,0 +1,66 @@
+header{
+
+.header-img {
+  background-image: url("pexels-photo-62640.jpeg");
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+}
+
+main{
+  padding: 30px;
+  .main-title{
+    text-align: center;
+  
+  #showcase{
+    display: flex;
+    
+    .box{
+      width: 30%;
+    
+    .box-title,box-text{
+      padding: 30%;
+      text-align: center;
+    }
+   }
+  }
+}
+}
+
+footer{
+  
+  
+  .button{
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    background: #999;
+    border-radius: 5px;
+    text-align: center;
+    
+  .button-title{
+    text-align: center;
+    
+  }
+   
+    
+  }
+}
+
+@media(max-width: 768px){
+  header{
+    main{
+      #showcase{
+        flex-direction: colum;
+        .box{
+          widh: 100%;
+          
+        }
+      }
+    }
+  }
+}
