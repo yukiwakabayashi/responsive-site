@@ -9,29 +9,50 @@ header .header-img {
 main {
   padding: 30px; }
   main .main-title {
-    text-align: center; }
-    main .main-title #showcase {
-      display: flex; }
-      main .main-title #showcase .box {
-        width: 30%; }
-        main .main-title #showcase .box .box-title, main .main-title #showcase .box box-text {
-          padding: 30%;
-          text-align: center; }
+    text-align: center;
+    padding: 30px;
+    color: #999; }
+  main #showcase {
+    display: flex;
+    justify-content: space-between; }
+    main #showcase .box {
+      width: 30%; }
+      main #showcase .box .box-title {
+        padding: 20px;
+        text-align: center;
+        color: #999;
+        background-color: #dbd0d0; }
+      main #showcase .box .box-text {
+        padding: 50px;
+        text-align: center;
+        color: #fff;
+        background-color: #999; }
 
-footer .button {
-  width: 150px;
-  height: 30px;
-  color: #fff;
-  background: #999;
-  border-radius: 5px;
-  text-align: center; }
-  footer .button .button-title {
+footer {
+  background-color: #dbd0d0;
+  color: #999;
+  padding: 20px; }
+  footer .button {
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    background: #999;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5px;
     text-align: center; }
+  footer .button-title {
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    padding-bottom: 10px; }
+  footer .button-text {
+    margin: 5px; }
 
 @media (max-width: 768px) {
-  header main #showcase {
-    flex-direction: colum; }
-    header main #showcase .box {
-      widh: 100%; } }
+  main #showcase {
+    flex-direction: column; }
+    main #showcase .box {
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

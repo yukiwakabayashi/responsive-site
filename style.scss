@@ -1,66 +1,85 @@
 header{
-
-.header-img {
-  background-image: url("pexels-photo-62640.jpeg");
-  height: 500px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
+  .header-img {
+    background-image: url("pexels-photo-62640.jpeg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
 }
 
 main{
   padding: 30px;
   .main-title{
     text-align: center;
-  
+    padding: 30px;
+    color: #999;
+  }
   #showcase{
     display: flex;
+    justify-content:space-between;
     
-    .box{
-      width: 30%;
-    
-    .box-title,box-text{
-      padding: 30%;
-      text-align: center;
+        .box{
+        width: 30%;
+      
+      .box-title{
+        padding: 20px;
+        text-align: center;
+        color: #999;
+        background-color: #dbd0d0;
+      }
+      
+      .box-text{
+        padding: 50px;
+        text-align: center;
+        color: #fff;
+        background-color: #999;
+        
+        }
+      }
     }
-   }
   }
-}
-}
+
 
 footer{
-  
-  
+  background-color: #dbd0d0;
+  color: #999;
+  padding: 20px;
+
   .button{
     width: 150px;
     height: 30px;
     color: #fff;
     background: #999;
     border-radius: 5px;
+    margin : 0 auto;
+    padding: 5px;
     text-align: center;
+  }
     
   .button-title{
     text-align: center;
+    margin: 5px;
+    padding: 20px;
+    padding-bottom: 10px;
     
   }
-   
-    
+  .button-text{
+    margin: 5px;
   }
 }
 
 @media(max-width: 768px){
-  header{
-    main{
-      #showcase{
-        flex-direction: colum;
-        .box{
-          widh: 100%;
-          
-        }
+  
+  main{
+    #showcase{
+      flex-direction: column;
+      .box{
+        width: 100%;
+        
       }
+      
     }
   }
 }
