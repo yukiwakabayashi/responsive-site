@@ -71,6 +71,11 @@ footer{
 }
 
 @media(max-width: 768px){
+ 　 header{
+    .header-img {
+    height: 250px;
+   }
+  }
   
   main{
     #showcase{

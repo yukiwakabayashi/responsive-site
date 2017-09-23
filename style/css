@@ -1,4 +1,3 @@
-@charset "UTF-8";
 header .header-img {
   background-image: url("pexels-photo-62640.jpeg");
   height: 500px;
@@ -51,7 +50,7 @@ footer {
     margin: 5px; }
 
 @media (max-width: 768px) {
-  　 header .header-img {
+  header .header-img {
     height: 250px; }
 
   main #showcase {
@@ -59,4 +58,4 @@ footer {
     main #showcase .box {
       width: 100%; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.map */
