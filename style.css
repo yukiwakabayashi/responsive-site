@@ -51,12 +51,14 @@ footer {
     margin: 5px; }
 
 @media (max-width: 768px) {
-  　 header .header-img {
+  header .header-img {
     height: 250px; }
 
   main #showcase {
     flex-direction: column; }
     main #showcase .box {
-      width: 100%; } }
+      width: 100%; } 
+}
+
 
 /*# sourceMappingURL=style.css.map */
